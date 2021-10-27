@@ -13,9 +13,9 @@ html {
 
 body {
   margin: 0;
-  background-color: black;
+  background-color: blue;
 }
 
 .icon svg {
-  color: #fff;
+  fill: #fff;
 }
