@@ -17,4 +17,5 @@ body {
 
 .icon svg {
   color: #fff;
+  fill: currentcolor;
 }
