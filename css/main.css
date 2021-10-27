@@ -12,15 +12,15 @@ html {
 }
 
 body {
-    margin: 0;
-    padding: 0;
-    line-height: 1.5;
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
 }
 
 main {
   margin: 0;
   padding: 1rem;
-      background-image: linear-gradient(#ff9500, #ff5e3a);
+  background-image: linear-gradient(#ff9500, #ff5e3a);
 }
 
 h1 {
@@ -37,18 +37,20 @@ h3 {
 
 @media only screen and (min-width: 38em) {
 
-header {
-  text-align: center;
-}
+  header {
+    text-align: center;
+  }
 
-section {
-  display: grid;
-grid-template-columns: 1fr 1fr 1fr;
-grid-template-areas: "header header header"
-"col1 col2 col3";
-gap: 1rem;
-}
+  section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:
+    "header header header"
+    "col1 col2 col3";
+    gap: 1rem;
+  }
 
-h2 {
-  display: flex;
-}
+  h2 {
+    display: flex;
+    justify-content: center;
+  }
