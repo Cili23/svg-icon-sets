@@ -22,6 +22,6 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-areas:
-    "icon1 icon2 icon3"
+    "header header header"
     "col1 col2 col3";
 }
