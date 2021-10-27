@@ -14,3 +14,7 @@ html {
 body {
   margin: 0;
 }
+
+.icon svg {
+  color: #fff;
+}
