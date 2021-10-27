@@ -13,9 +13,15 @@ html {
 
 body {
   margin: 0;
-  background-color: blue;
 }
 
 .icon svg {
-  fill: #fff;
+}
+
+body {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas:
+    "icon icon icon"
+    "col1 col2 col3";
 }
