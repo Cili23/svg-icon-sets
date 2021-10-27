@@ -11,26 +11,7 @@ html {
   box-sizing: inherit;
 }
 
-.icon svg {
-  fill: black;
-}
-
 body {
     margin: 0;
     padding: 1rem;
-
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-areas:
-    "header header header"
-    "col1 col2 col3";
-    gap: 1rem;
-}
-
-h1 {
-  grid-area: header;
-}
-
-.col1 {
-  grid-area: col1;
 }
