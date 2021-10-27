@@ -13,9 +13,10 @@ html {
 
 body {
   margin: 0;
+  background-color: black;
 }
 
 .icon svg {
   color: #fff;
-  fill: currentcolor;
+  fill: currentColor;
 }
