@@ -55,8 +55,8 @@ h3:hover {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas:
-    "header header header"
-    "col1 col2 col3";
+      "header header header"
+      "col1 col2 col3";
     gap: 1rem;
   }
 
