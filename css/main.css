@@ -51,4 +51,13 @@ h3:hover {
     text-align: center;
   }
 
+  section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:
+    "header header header"
+    "col1 col2 col3";
+    gap: 1rem;
+  }
+
 }
