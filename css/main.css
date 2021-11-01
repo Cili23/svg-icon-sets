@@ -68,8 +68,7 @@ p {
   margin-bottom: 2rem;
 }
 
-
-@media only screen and (min-width: 38px) and (max-width:  89px) {
+@media only screen and (min-width: 38px) and (max-width: 89px) {
 
   main {
     padding: 2rem;
@@ -114,8 +113,6 @@ p {
     grid-template-columns: repeat(3, minmax(0, 1fr));
     gap: 5rem;
   }
-
-
 
   a {
     margin: 1rem 0;
