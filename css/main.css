@@ -7,7 +7,9 @@ html {
   text-size-adjust: 100%;
 }
 
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: inherit;
 }
 
@@ -15,68 +17,107 @@ body {
   margin: 0;
   padding: 0;
   line-height: 1.5;
+  color: white;
 }
 
 main {
   margin: 0;
-  padding: 1rem;
+  padding: 1.5rem;
   background-image: linear-gradient(#ff9500, #ff5e3a);
+}
+
+header {
+  margin-bottom: 2rem;
+}
+
+section {
+  display: grid;
+  gap: 2rem;
 }
 
 h1 {
   margin: 0;
   padding: 0;
-  color: #fff;
 }
 
 h3 {
   text-align: center;
-  font-size: 1.1rem;
-  display: flex;
+}
+
+.cols {
+  text-align: center;
+}
+
+svg {
+  width: 8rem;
+}
+
+a {
+  font-size: 1rem;
   border-radius: .2rem;
   margin: 1rem;
   text-decoration: none;
   outline: .2rem solid rgba(255, 255, 255, .7);
-  color: rgba(255, 255, 255, .7);
+  color: #fff;
   padding: 1rem;
-  margin-bottom: 0;
-}
-
-h3:hover {
-  outline: .2rem solid rgba(255, 255, 255, .7);
-  color: #fff;
-}
-
-svg {
-  width: 18rem;
-  height: 8rem;
-  fill: #fff;
-  margin-top: 1.5rem;
-}
-
-h2 {
-  text-align: center;
-  color: #fff;
+  display: block;
 }
 
 p {
-  color: #fff;
-  margin-bottom: 3rem;
+  text-align: left;
+  margin-bottom: 2rem;
 }
 
-@media only screen and (min-width: 38em) {
+
+@media only screen and (min-width: 38px) and (max-width:  89px) {
+  main {
+    padding: 2rem;
+  }
 
   header {
     text-align: center;
+    margin: 0 0 4rem;
   }
 
   section {
     display: grid;
-    grid-template-columns: minmax (auto, 1fr);
-    grid-template-areas:
-      "header header header"
-      "col1 col2 col3"
-    gap: 1rem;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 3rem;
+  }
+
+  .cols {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+
+  a {
+    margin: 1rem 0;
+  }
+
+}
+
+@media only screen and (min-width: 90px) {
+  main {
+    padding: 6rem;
+  }
+
+  header {
+    text-align: center;
+    margin: 0 0 4rem;
+  }
+
+  section {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 5rem;
+  }
+
+
+
+  a {
+    margin: 1rem 0;
+    display: inline;
   }
 
 }
