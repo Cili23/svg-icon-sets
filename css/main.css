@@ -45,11 +45,9 @@ h3:hover {
   color: #fff;
 }
 
-i svg {
+svg {
   width: 7rem;
   fill: #fff;
-  display: flex;
-  content: center;
 }
 
 @media only screen and (min-width: 38em) {
