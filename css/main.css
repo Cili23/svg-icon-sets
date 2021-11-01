@@ -10,6 +10,7 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
 body {
   margin: 0;
   padding: 0;
@@ -44,8 +45,9 @@ h3:hover {
   color: #fff;
 }
 
-@media only screen and (min-width: 38em){
-  header{
+@media only screen and (min-width: 38em) {
+  header {
     text-align: center;
+
   }
 }
