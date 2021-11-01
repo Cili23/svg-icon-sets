@@ -33,7 +33,7 @@ h3 {
   font-size: 1.1rem;
   display: flex;
   border-radius: .2rem;
-  margin: 1.5rem;
+  margin: 1rem;
   text-decoration: none;
   outline: .2rem solid rgba(255, 255, 255, .7);
   color: #fff;
@@ -52,6 +52,7 @@ h3:hover {
 
 h2 {
   text-align: center;
+  color: #fff;
 }
 
 p {
