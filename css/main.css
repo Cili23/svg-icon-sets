@@ -30,6 +30,7 @@ h1 {
 
 h3 {
   text-align: center;
+  hover: red;
 }
 
 svg {
