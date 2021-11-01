@@ -61,5 +61,4 @@ padding: 1rem;
     grid-template-areas:
     "header header header"
     "col1 col2 col3";
-    gap: 1rem;
   }
