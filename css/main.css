@@ -32,6 +32,10 @@ h3 {
   text-align: center;
 }
 
+h3:hover {
+  background-color: yellow;
+}
+
 svg {
   width: 8rem;
 }
