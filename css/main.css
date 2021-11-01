@@ -37,7 +37,7 @@ h3 {
   text-decoration: none;
   outline: .2rem solid rgba(255, 255, 255, .7);
   color: #fff;
-  padding: 2rem;
+  padding: 1rem;
 }
 
 h3:hover {
@@ -56,6 +56,7 @@ h2 {
 
 p {
   color: #fff;
+  padding-bottom: 1rem;
 }
 
 @media only screen and (min-width: 38em) {
