@@ -30,11 +30,6 @@ header {
   margin-bottom: 2rem;
 }
 
-section {
-  display: grid;
-  gap: 2rem;
-}
-
 h1 {
   margin: 0;
   padding: 0;
