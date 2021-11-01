@@ -30,14 +30,14 @@ h1 {
 
 h3 {
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 1.1rem;
   display: flex;
   border-radius: .2rem;
   margin: 1.5rem;
   text-decoration: none;
   outline: .2rem solid rgba(255, 255, 255, .7);
   color: #fff;
-  padding: 1.5rem;
+  padding: 1rem;
 }
 
 h3:hover {
